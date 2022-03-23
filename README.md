@@ -11,6 +11,15 @@ The repository includes:
 The code is documented and designed to be easy to extend. If you use it in your research, please consider citing this repository (bibtex below). This dataset was created from Kubota Laboratory, Tokyo Metropolitan University and available for academic use. 
 
 
+# Contributing
+Contributions to this repository are welcome. Examples of things you can contribute:
+  - Speed Improvements.
+  - Training on other datasets.
+  - Accuracy Improvements.
+  - Visualizations and examples.
+  - Join our team and help us build even more projects.
+
+
 This figure shows the design of multiscopic cyber-physical-social systems for chopsticks manipulation test. 
 
 ![alt text](https://github.com/anom-tmu/cmt-attention/blob/main/pic_multiscopic.jpg)
@@ -32,8 +41,6 @@ We used Cheng-type FCC-NN [45] and compared it with the conventional architectur
 ![alt text](https://github.com/anom-tmu/cmt-attention/blob/main/pic_joint_angle_estimation.jpg)
 
 We have successfully implemented FCC-NN as a learning algorithm to estimate PIP joint angle in the preliminary test. The upper length (L_up) and bottom length (L_bot) as inputs for the networks and the PIP joint angle (θ) as the output. We compare this result with MLP with several hidden nodes and evaluate the performance. This figure shows PIP joint angle estimation training and testing results using MLP and FCC-NN. 
-
-![alt text](https://github.com/anom-tmu/cmt-attention/blob/main/pic_graph.jpg)
 
 ### 3. Macroscopic Level: Cognitive Ability
 
