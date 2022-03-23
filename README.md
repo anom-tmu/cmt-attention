@@ -4,3 +4,10 @@ This application integrate finger measurement and visual attention for Chopstick
 
 ![alt text](https://raw.githubusercontent.com/anom-tmu/cmt-attention/main/pic_multiscopic.jpg)
 
+![alt text](https://github.com/anom-tmu/cmt-attention/blob/main/pic_installation.jpg)
+
+![alt text](https://raw.githubusercontent.com/anom-tmu/cmt-attention/main/pic_multiscopic.jpg)
+
+![alt text](https://raw.githubusercontent.com/anom-tmu/cmt-attention/main/pic_multiscopic.jpg)
+
+![alt text](https://raw.githubusercontent.com/anom-tmu/cmt-attention/main/pic_multiscopic.jpg)
