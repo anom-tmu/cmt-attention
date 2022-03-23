@@ -10,6 +10,8 @@ This research integrate finger measurement and visual attention for chopsticks m
 
 By detecting the local minima and maxima of the signal, we propose three parameters, namely joint angle estimation movement (JAEM), chopsticks' attention movement (CAM), and chopsticks' tips movement (CTM). In our experimental result, the velocity of these parameters could indicate improvement in hand and eye function during CMT. This study is expected to benefit hand-eye coordination rehabilitation in the future.
 
+
+## Contents
 The repository includes:
   - Data training for joint angle estimation
   - Data testing for Chopsticks Manipulation Test (CMT)
@@ -23,6 +25,7 @@ The repository includes:
 The code is documented and designed to be easy to extend. If you use it in your research, please consider citing this repository (bibtex below). This dataset was created from Kubota Laboratory, Tokyo Metropolitan University and available for academic use. 
 
 ## Requirements
+This system works with this packages:
   - python 3.8.5
   - pytorch 1.9.0
   - opencv-python 4.5.2.54 
