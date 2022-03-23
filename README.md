@@ -1,8 +1,14 @@
 # Chopsticks Manipulation Test with Visual Attention based on Multiscopic Framework for Independent Rehabilitation Support
 
+
+![alt text](https://github.com/anom-tmu/cmt-attention/blob/main/cover_cmt.gif)
+
+
 This application integrate finger measurement and visual attention for Chopsticks manipulation tests (CMT) assessment. We estimate the proximal interphalangeal (PIP) joint angle on the index finger during CMT using fully-connected cascade neural networks (FCC-NN). Then, we implement visual attention measurement using Tobii Pro Glasses 3 during CMT. We propose three parameters, namely joint angle estimation movement (JAEM), chopsticks' attention movement (CAM), and chopsticks' tips movement (CTM), by detecting the local minima and maxima of the signal. In our experimental result, the velocity of these three parameters could indicate improvement in hand and eye function during CMT. This study is expected to benefit hand-eye coordination rehabilitation in the future.
 
+
 ![alt text](https://github.com/anom-tmu/cmt-attention/blob/main/pic_installation.jpg)
+
 
 The repository includes:
   - Data training for joint angle estimation
