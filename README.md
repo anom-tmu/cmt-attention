@@ -11,21 +11,21 @@ The repository includes:
 The code is documented and designed to be easy to extend. If you use it in your research, please consider citing this repository (bibtex below). This dataset was created from Kubota Laboratory, Tokyo Metropolitan University and available for academic use. 
 
 
-This figure shows the design of multiscopic cyber-physical-social systems for chopsticks manipulation test. This approach includes a) modeling finger kinematic and chopsticks state for feature extraction at the microscopic level, b) estimating PIP finger feature  [37] by active perception ability at the mesoscopic level, and (c) discovering the human visual attention by cognition ability at the macroscopic levels. 
+This figure shows the design of multiscopic cyber-physical-social systems for chopsticks manipulation test. 
 
 ![alt text](https://github.com/anom-tmu/cmt-attention/blob/main/pic_multiscopic.jpg)
 
 We explain the microscopic, mesoscopic, and macroscopic levels in three sub-sections. We describe our method from setting up the experiments, extracting finger features, detecting chopsticks state, estimating the joint angle, and measuring visual attention during the CMT.
 
 
-## 1. Microscopic Level: Feature Extraction
+### 1. Microscopic Level: Feature Extraction
 
-We used two markers: chopsticks markers in red and finger markers represented in blue. We performed marker detection on the index finger because it was visible in egocentric vision, while the middle finger was closed. We got the finger features by connecting the center of the blue marker with the center of the nearest blue marker to form a skeletal finger. We used smart glasses as non-contact wearable sensors on egocentric view and set them up in the direction of participant view. 
+We used two markers: chopsticks markers in red and finger markers represented in blue. We performed marker detection on the index finger because it was visible in egocentric vision, while the middle finger was closed. We got the finger features by connecting the center of the blue marker with the center of the nearest blue marker to form a skeletal finger. We utilized Tobii Pro Glasses 3 to get attention on egocentric view and set them up in the direction of participant view. 
 
 ![alt text](https://github.com/anom-tmu/cmt-attention/blob/main/pic_installation.jpg)
 
 
-## 2. Mesoscopic Level: Active Perception
+### 2. Mesoscopic Level: Active Perception
 
 We used Cheng-type FCC-NN [45] and compared it with the conventional architecture such as multi-layer perceptron (MLP). We applied the upper length (L_up) and bottom length (L_bot) as input of neural networks to get PIP joint angle (θ) as output. We collected data for 1 minute for all chopsticks manipulation poses with different directions. 
 
@@ -35,9 +35,9 @@ We have successfully implemented FCC-NN as a learning algorithm to estimate PIP 
 
 ![alt text](https://github.com/anom-tmu/cmt-attention/blob/main/pic_graph.jpg)
 
-## 3. Macroscopic Level: Cognitive Ability
+### 3. Macroscopic Level: Cognitive Ability
 
-The direction of attention usually is focused on the object and the tip of the chopsticks. The movement of the chopstick tip also follows the person's attention. We utilized Tobii Pro Glasses 3 to get attention on the image plane [48]. This intelligent eyeglass gives us information about the attention location from a red circle in the image area. The location of the center of attention can fastly change according to the movement of the eyes. We also put blue markers on both tips of the chopsticks to determine the location of the chopstick tips in the image coordinate. 
+The direction of attention usually is focused on the object and the tip of the chopsticks. The movement of the chopstick tip also follows the person's attention. The Tobii Pro Glasses 3 gives us information about the attention location from a red circle in the image area. The location of the center of attention can fastly change according to the movement of the eyes. We also put blue markers on both tips of the chopsticks to determine the location of the chopstick tips in the image coordinate. 
 
 ![alt text](https://github.com/anom-tmu/cmt-attention/blob/main/pic_eye_tracking.jpg)
 
