@@ -35,6 +35,6 @@ Contributions to this repository are welcome. Examples of things you can contrib
 
 ## Citation
 Use this bibtex to cite this repository: 
-'''
+```
 This research not yet published
-'''
+```
