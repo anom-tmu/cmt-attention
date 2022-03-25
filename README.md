@@ -1,4 +1,4 @@
-# Chopsticks Manipulation Test with Visual Attention based on Multiscopic Framework for Independent Rehabilitation Support
+# Hand Object Interaction with Visual Attention for Rehabilitation Support: A Case Study in Chopsticks Manipulation Test
 
 
 ![alt text](https://github.com/anom-tmu/cmt-attention/blob/main/cover_cmt.gif)
