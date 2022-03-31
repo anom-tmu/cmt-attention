@@ -1,4 +1,4 @@
-# Hand Object Interaction with Visual Attention for Rehabilitation Support: A Case Study in Chopsticks Manipulation Test
+# Finger Joint Angle Estimation with Visual Attention for Rehabilitation Support: A Case Study of Chopsticks Manipulation Test
 
 
 ![alt text](https://github.com/anom-tmu/cmt-attention/blob/main/cover_cmt.gif)
